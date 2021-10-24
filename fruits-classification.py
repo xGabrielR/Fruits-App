@@ -89,7 +89,7 @@ class Fruits( object ):
                 width: 120px;
             }
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 470px) {
             .line{
                 display: None;
             }
