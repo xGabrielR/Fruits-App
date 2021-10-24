@@ -89,16 +89,12 @@ class Fruits( object ):
                 width: 120px;
             }
         }
-        @media screen and (max-width: 300px) {
+        @media screen and (max-width: 400px) {
             .line{
-                top: 35px;
-                left: 10px;
-                width: 120px;
+                display: None;
             }
             .line2{
-                top: 108px;
-                left: 10px;
-                width: 120px;
+                display: None;
             }
         }
         </style>
