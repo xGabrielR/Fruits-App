@@ -92,12 +92,12 @@ class Fruits( object ):
         @media screen and (max-width: 300px) {
             .line{
                 top: 35px;
-                left: 90px;
+                left: 10px;
                 width: 120px;
             }
             .line2{
                 top: 108px;
-                left: 90px;
+                left: 10px;
                 width: 120px;
             }
         }
