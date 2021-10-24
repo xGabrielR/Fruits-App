@@ -36,7 +36,7 @@ class Fruits( object ):
             left: 190px;
             opacity: 15%;
             height: 20px;
-            top: 115px;
+            top: 125px;
             background: rgb(253, 250, 255 );
         }
         @media screen and (max-width: 1100px) {
