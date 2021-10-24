@@ -89,6 +89,18 @@ class Fruits( object ):
                 width: 120px;
             }
         }
+        @media screen and (max-width: 400px) {
+            .line{
+                top: 35px;
+                left: 100px;
+                width: 120px;
+            }
+            .line2{
+                top: 108px;
+                left: 100px;
+                width: 120px;
+            }
+        }
         </style>
         <section>
         <h1>🍎 Fruits & Vegetables</h1>
