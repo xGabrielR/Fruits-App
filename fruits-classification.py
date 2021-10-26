@@ -8,6 +8,14 @@ from tensorflow.keras.metrics import Precision, Recall
 from tensorflow.keras.applications import MobileNetV2
 
 class Fruits( object ):
+    '''
+    App for Load and setup a Deep Learning Model and make classifications.
+        - pre_html: Load the HTML and CSS Style for Web App.
+        - model_preparation: Load model weights and copile the model.
+        - file_upload: User upload a Img to feed the model.
+        - new_img: Load and transform image for model.
+        - model_predict: Model classify the image and return a dataframe with percentages > .10
+    '''
     def __init__( self ) :
         self.model_weights = 'model/mobilenet.h5'
 
