@@ -41,7 +41,7 @@ class Fruits( object ):
         .line2 {
             position: absolute;
             width: 135px;
-            left: 190px;
+            left: 185px;
             opacity: 15%;
             height: 20px;
             top: 125px;
